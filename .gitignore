@@ -1,0 +1,64 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+
+# Large Model Files
+*.pth
+*.pkl
+*.h5
+*.weights
+*.ckpt
+best_model.pth
+
+# Training Data
+training/ImagesReal/*
+!training/ImagesReal/.gitkeep
+training/masksReal/*
+!training/masksReal/.gitkeep
+training/evaluation_results/
+training/results/
+outputs/
+
+# Node.js / Frontend
+node_modules/
+.next/
+.pnpm-store/
+out/
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Uploads
+uploads/
+backend/uploads/
+frontend/public/uploads/
+
+# PDFs
+*.pdf
+
+# Lock files
+pnpm-lock.yaml
+package-lock.json
