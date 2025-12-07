@@ -16,6 +16,7 @@ ENV/
 *.weights
 *.ckpt
 best_model.pth
+pdf.py
 
 # Training Data
 training/ImagesReal/*
