@@ -1,0 +1,9 @@
+flask==3.0.0
+flask-cors==4.0.0
+torch==2.1.0
+torchvision==0.16.0
+opencv-python==4.8.1.78
+numpy==1.24.3
+Pillow==10.1.0
+shapely==2.0.2
+trimesh==4.0.5
