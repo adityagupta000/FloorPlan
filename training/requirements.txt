@@ -1,0 +1,30 @@
+# Deep Learning Framework
+torch==2.1.0
+torchvision==0.16.0
+
+# Image Processing
+Pillow==10.1.0
+
+# Scientific Computing
+numpy==1.24.3
+
+# Visualization
+matplotlib==3.8.0
+
+# Progress Bar
+tqdm==4.66.1
+
+# Optional: For CUDA 11.8 (uncomment if using NVIDIA GPU)
+# torch==2.1.0+cu118
+# torchvision==0.16.0+cu118
+# --extra-index-url https://download.pytorch.org/whl/cu118
+
+# Optional: For CUDA 12.1 (uncomment if using NVIDIA GPU)
+# torch==2.1.0+cu121
+# torchvision==0.16.0+cu121
+# --extra-index-url https://download.pytorch.org/whl/cu121
+
+# Optional: For CPU only (uncomment if no GPU available)
+# torch==2.1.0+cpu
+# torchvision==0.16.0+cpu
+# --extra-index-url https://download.pytorch.org/whl/cpu
