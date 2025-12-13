@@ -8,7 +8,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.1-red?logo=pytorch)](https://pytorch.org/)
 [![Flask](https://img.shields.io/badge/Flask-3.0-green?logo=flask)](https://flask.palletsprojects.com/)
 
-## 📸 Screenshots
+##  UI Snapshort
 
 <div align="center">
   <img src="https://github.com/adityagupta000/FloorPlan/raw/eb384405d190565aa213f420a0426657fc8c44ad/images/1.png" alt="Upload Interface" width="800"/>
@@ -27,7 +27,7 @@
   <p><em>Step 5: Download OBJ file for use in Blender, SketchUp, etc.</em></p>
 </div>
 
-## 🎯 Overview
+##  Overview
 
 FloorPlan3D is an end-to-end system that transforms 2D architectural floor plans into high-quality 3D models. Using a custom ResNet50-UNet architecture with attention gates, the system performs semantic segmentation to identify walls, doors, windows, and floors, then generates industry-standard OBJ files with proper geometry and vertex colors.
 
@@ -40,7 +40,7 @@ FloorPlan3D is an end-to-end system that transforms 2D architectural floor plans
 - **Interactive Preview**: Real-time 3D visualization using Three.js
 - **Modern Web Interface**: Built with Next.js 16, TypeScript, and Tailwind CSS
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Frontend (Next.js + TypeScript)
 - **Framework**: Next.js 16.0 with App Router
@@ -63,7 +63,7 @@ FloorPlan3D is an end-to-end system that transforms 2D architectural floor plans
 - **Input Resolution**: 512×512
 - **Output Classes**: 5 (background, walls, doors, windows, floors)
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -77,8 +77,8 @@ FloorPlan3D is an end-to-end system that transforms 2D architectural floor plans
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/floorplan3d.git
-cd floorplan3d
+git clone https://github.com/adityagupta000/floorPlan.git
+cd floorPlan
 ```
 
 #### 2. Frontend Setup
@@ -146,7 +146,7 @@ floorplan3d/
 └── package.json                 # Node.js dependencies
 ```
 
-## 🔧 Usage
+##  Usage
 
 ### Web Interface
 
@@ -188,7 +188,7 @@ Body: { mask_filename: string }
 GET /api/download/:filename
 ```
 
-## 🧠 Model Training
+##  Model Training
 
 ### Dataset Preparation
 
@@ -238,7 +238,7 @@ python train_old.py
 
 The model uses Test-Time Augmentation (TTA) with 4 rotations for rotation-invariant predictions.
 
-## 🎨 3D Model Output
+##  3D Model Output
 
 **Geometry Details:**
 - **Walls**: 0.8m height with proper openings
@@ -261,7 +261,7 @@ The model uses Test-Time Augmentation (TTA) with 4 rotations for rotation-invari
 - 3ds Max
 - Any OBJ-compatible 3D software
 
-## 🛠️ Configuration
+##  Configuration
 
 ### Backend Configuration (`backend/obj_generator.py`)
 
@@ -281,7 +281,7 @@ TILE_SIZE = 0.3             # Floor tile size
 NEXT_PUBLIC_API_URL=http://localhost:5000/api
 ```
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Backend Issues
 
@@ -306,25 +306,11 @@ NEXT_PUBLIC_API_URL=http://localhost:5000/api
 - Verify backend is running on port 5000
 - Check CORS configuration in `backend/app.py`
 
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📧 Contact
+##  Contact
 
 For questions, issues, or suggestions, please open an issue on GitHub or contact the maintainers.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - ResNet50 architecture from torchvision
 - U-Net concept from Ronneberger et al.
