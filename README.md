@@ -230,7 +230,7 @@ python train_old.py
 - Input size: 512×512
 - Weight decay: 1e-4
 
-## 📊 Model Performance
+##  Model Performance
 
 - **Dice Coefficient**: Measures segmentation accuracy
 - **IoU (Intersection over Union)**: Measures overlap quality
