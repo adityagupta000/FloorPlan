@@ -308,7 +308,7 @@ NEXT_PUBLIC_API_URL=http://localhost:5000/api
 
 ##  Contact
 
-For questions, issues, or suggestions, please open an issue on GitHub or contact the maintainers.
+For questions, issues, or suggestions, please open an issue on GitHub.
 
 ##  Acknowledgments
 
